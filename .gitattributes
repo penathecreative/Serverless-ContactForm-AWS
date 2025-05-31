@@ -1,4 +1,17 @@
-# Force JS and Python to be recognized
-*.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
-*.py linguist-language=Python
+# Frontend files
+frontend/**/*.js linguist-language=JavaScript
+frontend/**/*.jsx linguist-language=JavaScript
+frontend/**/*.ts linguist-language=TypeScript
+frontend/**/*.tsx linguist-language=TypeScript
+frontend/**/*.css linguist-language=CSS
+frontend/**/*.html linguist-language=HTML
+
+# Backend files
+backend/**/*.py linguist-language=Python
+
+# Ensure frontend isn't treated as vendored
+frontend/* linguist-vendored=false
+
+# Common files that might be misclassified
+*.json linguist-generated=false
+package*.json linguist-generated=false
