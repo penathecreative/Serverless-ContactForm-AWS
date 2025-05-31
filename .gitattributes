@@ -1,0 +1,4 @@
+# Force JS and Python to be recognized
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.py linguist-language=Python
