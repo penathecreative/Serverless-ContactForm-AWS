@@ -1,5 +1,7 @@
 # 📬 Serverless Contact Form Using AWS DynamoDB, Lambda, and API Gateway
 
+![Demo of the contact form](assets/demo.gif)
+
 This project creates a fully functional contact form using a **React frontend** and **serverless backend** with **AWS Lambda**, **DynamoDB**, and **API Gateway**.
 
 ---
