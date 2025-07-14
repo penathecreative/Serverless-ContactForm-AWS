@@ -50,3 +50,4 @@ Thumbs.db
 
 # General environment files
 .env
+venv/
